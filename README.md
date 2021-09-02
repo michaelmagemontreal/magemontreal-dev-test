@@ -4,7 +4,7 @@ Welcome to MageMontreal Developer Test. In advance, we would like to thank you f
 ## Common Steps
 1. Copy this repository to your personal GitHub account, and keep it private.  
 2. Install this Magento contributor edition in your local machine and work on it in the requirements for your position.
-3. When you finish, please add cainan@magemontreal.com and carlos@magemontreal.com to review it.
+3. When you finish, please add michael@magemontreal.com and carlos@magemontreal.com to review it.
 
 ### Please, be attentive to:
 - follow Magento coding standards.
