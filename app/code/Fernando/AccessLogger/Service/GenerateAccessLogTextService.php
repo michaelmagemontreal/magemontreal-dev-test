@@ -24,7 +24,7 @@ class GenerateAccessLogTextService
     public function execute()
     {
         $pageUrl = $this->urlInterface->getCurrentUrl();
-        $pageTitle = $this->getLayout()->getBlock('head')->getTitle();
+        $pageTitle = $this->pageTitle->getShort();
         $clientIp = $this->remoteAddress->getRemoteAddress();
         return "{$pageTitle}: {$pageUrl} - {$clientIp}";
     }

@@ -20,7 +20,6 @@ class RequestLoggerObserver implements ObserverInterface
 
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
-        // FALTA LOGAR NO ARQUIVO CERTO
         $accessLogText = $this->generateAccessLogTextService->execute();
         $this->logger->info($accessLogText);
     }
